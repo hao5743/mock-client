@@ -1,0 +1,22 @@
+{
+  "name": "mock-client",
+  "version": "1.0.0",
+  "description": "The project is used for generating mock datas, to help us test front end program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node src/index.js",
+    "build": "babel src --out-dir build"
+  },
+  "keywords": [
+    "mockdata",
+    "mock"
+  ],
+  "author": "hao5743@163.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "mockjs": "^1.0.1-beta3"
+  }
+}
