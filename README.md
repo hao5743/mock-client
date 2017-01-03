@@ -1,11 +1,29 @@
 # mock-client
 
-这是一个使用mock.js来批量生成随机测试数据的项目。
+这是一个使用mock.js来批量生成随机测试数据的项目
+
+2016-12-20 17:37:52
 
 mock.js: [http://mockjs.com/](http://mockjs.com/)
 
+## 使用步骤
+
+```bash
+# 1.安装模块
+$ npm install
+
+# 2.在index.js中定义我们自己的数据格式和大小
+
+# 3.运行，生成结果到src/ans.json
+$ npm start
 ```
-# 安装
+
+--------
+
+### mockjs的简单说明
+
+```
+//安装
 npm install mockjs
 ```
 
